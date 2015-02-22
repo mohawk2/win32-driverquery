@@ -24,10 +24,9 @@ use strict;
 use warnings;
 use Win32::API;
 use Win32;
-use IO::All -binary;
 use Config;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 my @MEMBERS = qw(
       HANDLE Section;

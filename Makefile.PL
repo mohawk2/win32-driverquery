@@ -10,7 +10,6 @@ WriteMakefile(
   VERSION_FROM => 'DriverQuery.pm',
   MIN_PERL_VERSION => '5.014001', # s///r
   PREREQ_PM => {
-    'IO::All' => 0,
     'Win32::API' => 0,
     'Win32' => 0,
   },
